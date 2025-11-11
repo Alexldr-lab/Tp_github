@@ -10,8 +10,8 @@ from sklearn import svm
 from train_model import train_model
 from preprocess_data import preprocess_data
 
-iris = pd.read_csv(r"C:\Users\alexa\TP_Git\InPutData\Iris.csv") #load the dataset
-test_size = 0.3 # the attribute test_size=0.3 to use for splitting the data 
+iris = pd.read_csv(r"InPutData\Iris.csv") #load the dataset
+test_size = 0.2 # the attribute test_size=0.3 to use for splitting the data 
 				#into 70% for train and 30% for test
 
 train, test =preprocess_data(iris, test_size)
