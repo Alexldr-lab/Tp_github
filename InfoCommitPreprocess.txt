@@ -1,0 +1,2 @@
+J'ai ajouté une normalisation des colonnes numériques avec MinMaxScaler pour que toutes les variables soient sur la même échelle. 
+Cela aide les modèles ML comme KNN ou SVM à mieux apprendre et à converger plus rapidement.
